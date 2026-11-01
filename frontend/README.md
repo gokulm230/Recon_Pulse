@@ -1,16 +1,46 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛡️ ReconPulse
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>An AI-powered web reconnaissance, vulnerability enumeration, and remediation platform.</strong>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38Bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI" />
+</p>
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Asynchronous Endpoint Enumeration:** High-performance concurrent scanning of sensitive paths using `asyncio` and `httpx`.
+* **Security Header Auditing:** Identifies missing or misconfigured HTTP security headers.
+* **Gemini AI Integration:** Generates executive risk summaries, attacker exploit scenarios, and developer-focused code patches with built-in retry logic.
+* **Professional PDF Reporting:** Generates downloadable, styled PDF audit reports via `ReportLab`.
+* **Modern React Frontend:** Clean, responsive dashboard built with React and Tailwind CSS.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Backend:** Python, FastAPI, Uvicorn, Pydantic, HTTPX, ReportLab, Google GenAI SDK (`google-genai`).
+* **Frontend:** React, Vite, Tailwind CSS.
+
+---
+
+## ⚙️ Getting Started
+
+<details>
+<summary><b>1. Backend Setup (fastapi_backend)</b></summary>
+
+```bash
+cd fastapi_backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
